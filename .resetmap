@@ -1,0 +1,10 @@
+keycode  10 = 1 exclam 1 exclam exclamdown onesuperior
+keycode  11 = 2 at 2 at masculine twosuperior
+keycode  12 = 3 numbersign 3 numbersign ordfeminine threesuperior
+keycode  13 = 4 dollar 4 dollar cent sterling
+keycode  14 = 5 percent 5 percent EuroSign yen
+keycode  15 = 6 asciicircum 6 asciicircum hstroke Hstroke
+keycode  16 = 7 ampersand 7 ampersand eth ETH
+keycode  17 = 8 asterisk 8 asterisk thorn THORN
+keycode  18 = 9 parenleft 9 parenleft leftsinglequotemark leftdoublequotemark
+keycode  19 = 0 parenright 0 parenright rightsinglequotemark rightdoublequotemark 

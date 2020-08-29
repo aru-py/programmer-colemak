@@ -1,0 +1,11 @@
+! replace number row
+keycode  10 = exclam 1
+keycode  11 = at 2
+keycode  12 = numbersign #
+keycode  13 = slash 4
+keycode  14 = parenleft 5
+keycode  15 = equal 6
+keycode  16 = parenright 7
+keycode  17 = underscore 8
+keycode  18 = bracketleft 9
+keycode  19 = bracketright 0
