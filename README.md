@@ -1,5 +1,5 @@
-# programmer-colemak
-Colemak keyboard layout for programmers
+
+<img src="keyboard-02.png" width="800px"></img>
 ## Overview
 
 This is my custom variant of the Colemak keyboard layout. Inspired by Programmer Dvorak, the number keys have been flipped with commonly used symbols in programming. The more frequent symbols such as parenthesis are located closer to the middle so they can be reached by the stronger fingers. 
@@ -12,7 +12,9 @@ I didn't want to sacrifice my control key (caps lock) so it works as both a back
 
 ## Layout
 
-Include [picture of layout] here
+
+
+<img src="keyboard-01.png"></img>
 
 ## Usage
 
