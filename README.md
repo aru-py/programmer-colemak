@@ -1,24 +1,28 @@
 
 <h1 style="margin-left:-300px">
-  <img src="keyboard-02.png" width="800px"></img>
+  <img src="docs/title.png" width="800px"></img>
 </h1>
 
-## Overview
+# Overview
 
-This is my custom variant of the Colemak keyboard layout. Inspired by Programmer Dvorak, the number keys have been flipped with commonly used symbols in programming. The more frequent symbols such as parenthesis are located closer to the middle so they can be reached by the stronger fingers. 
+## Introduction
 
-The layout is optimal for Python, but other programming languages should not be too much of an adjustment. The obfuscated code used to generate the key frequencies and an accompanying jupyter notebook are provided if you wish to tailor the layout to your own code.
+Programmer-Colemak expands on the [Colemak keyboard](https://colemak.com/) layout by allowing access to frequently used programming symbols on the home row. The layout is inspired by the [Programmer-Dvorak](https://www.kaufmann.no/roland/dvorak/), yet it is very different as it introduces a completely separate modifier for symbols, which replaces the "B" key on traditional qwerty keyboards. The goal of the project is to make programming more ergonomic and enjoyable to type.
 
-## Quirks
+## Features
 
-I didn't want to sacrifice my control key (caps lock) so it works as both a backspace and a control key. It might take some time getting used to. Also `shift+backspace` is now equivalent to `ctrl + backspace`. The former control key is mapped to the escape key.
+- New modifier on the traditional `B` key, which allows typing of symbols
+- `CAPS LOCK` is `CTRL` instead of `BACKSPACE`, due to how often keyboard shortcuts are used
+- The left `CTRL` key is now an `ESCAPE` (you're welcome, Vim users)
+- On ANSI Keyboards, the `FN` key is replaced by `Z`, and is moved to the location of right `ALT` [(you won't miss the `Z` key)](https://en.wikipedia.org/wiki/Letter_frequency)
+- Switch between Programmer-Colemak and Qwerty using `RIGHT CTRL + SHIFT`
 
-## Layout
+# Layout
 
+The layout improves on [Colemak-DH](https://colemakmods.github.io/mod-dh/), a variant of Colemak which moves the "D" and "H" keys to more ergonomic locations, with the modifications above.
 
+<img src="docs/keyboard-layout.png"></img>
 
-<img src="keyboard-01.png"></img>
+# Usage
 
-## Usage
-
-Run `curl [aru.ai/keys](http://aru.ai/keys) > bash` to quickly download it to your computer or you can manually clone the git repository. Place the `.customMap` file in a location that runs on start-up, preferably `here`. Linux distributions and MacOS come preinstalled with Colemak, but if you're on Windows, the suggested thing to do would be to get a better operating system.
+Clone this repository or `curl [aru.ai/keys](http://aru.ai/keys)`, and place the `programmer-colemak.map` file in a convenient location. Run `xkbcomp programmer-colemak.map $DISPLAY` to enable the layout.
