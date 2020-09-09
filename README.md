@@ -1,5 +1,8 @@
 
-<img src="keyboard-02.png" width="800px"></img>
+<h1 style="margin-left:-300px">
+  <img src="keyboard-02.png" width="800px"></img>
+</h1>
+
 ## Overview
 
 This is my custom variant of the Colemak keyboard layout. Inspired by Programmer Dvorak, the number keys have been flipped with commonly used symbols in programming. The more frequent symbols such as parenthesis are located closer to the middle so they can be reached by the stronger fingers. 
