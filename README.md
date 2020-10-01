@@ -21,8 +21,8 @@ Programmer-Colemak expands on the [Colemak keyboard](https://colemak.com/) layou
 
 The layout improves on [Colemak-DH](https://colemakmods.github.io/mod-dh/), a variant of Colemak which moves the "D" and "H" keys to more ergonomic locations, with the modifications above.
 
-<img src="docs/keyboard-layout.png"></img>
+<img src="docs/ansi_keyboard.png"></img>
 
 # Usage
 
-Clone this repository or `curl [aru.ai/keys](http://aru.ai/keys)`, and place the `programmer-colemak.map` file in a convenient location. Run `xkbcomp programmer-colemak.map $DISPLAY` to enable the layout.
+Clone this repository or `curl` [aru.ai/keys](http://aru.ai/keys), and place the `programmer-colemak.map` file in a convenient location. Run `xkbcomp programmer-colemak.map $DISPLAY` to enable the layout.
