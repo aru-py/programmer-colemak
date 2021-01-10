@@ -8,13 +8,14 @@
 Programmer Colemak is an ergonomic keyboard layout designed for programmers. It modifies the [Colemak keyboard layout](https://colemak.com/), primarily by giving home-row access to the most frequent programming symbols.
 
 # Layout
+~~~
 Differences from Colemak
 - Caps Lock key is now the Left Control key
 - Left-half of the bottom row has been shifted left to make room for a new modifier key
 - Z key now occupies the location of the former Control Key
 - Backspace is closer and can be reached without pivoting wrist
 - The D and H keys have changed locations
-
+~~~
 
 <img src="docs/images/ansi_keyboard.png"></img>
 
