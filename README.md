@@ -27,9 +27,4 @@ If you wish to make this your permanent layout, the quick-and-dirty way is to cr
 
 
 ### Windows
-
-There are two ways to use this layout on Windows. 
-
-If you don't have root permission or you would just like to quickly try out the layout, use the AutoHotKeys script. You can use the precompiled executable if you don't have AHK already installed. You can switch back to your default layout by simply killing the process. The  drawback to this method is that the `CAPS LOCK` and `CTRL` keys will not be modified, and the key bindings may not work in all programs.
-
-For a more stable install, you will have to use SharpKeys which remaps the keys on the operating-system level. **This has the potential to incorrectly remap your keyboard, so proceed with caution.** If you only want to remap `CAPS LOCK` and `CTRL`, use the `caps_lock_ctrl.sk` file, otherwise use the full `pcmk-sharpkeys` file. Import the file into SharpKeys, load it, and restart your computer.
+If you want to simply try out this layout, run the `programmer-colemak.ahk` script. The drawbacks to this approach is that it may not work in some applications (such as powershell) and that the control and caps lock keys will not be modified. If you want to be able to use this layout as if it were native, install `programmer_cokemak.sk` with Sharpkeys, which will modify the registry. **This has the potential to incorrectly map your keyboard, so proceed with caution**.
