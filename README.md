@@ -5,17 +5,26 @@
 
 
 # What is this?
-Programmer-Colemak is a programmer-oriented modification of the [Colemak Keyboard Layout](https://colemak.com/). It allows home-row access to the most common symbols and rearranges modifier keys into far more ergonomic locations.
+Programmer Colemak is an ergonomic keyboard layout designed for programmers. It modifies the [Colemak keyboard layout](https://colemak.com/), primarily by giving home-row access to the most frequent programming symbols.
 
 # Layout
-The primary feature of this layout is that a new modifier key has been introduced in the bottom row, which allows home-row-typing of the most common programming symbols. To make room for this key, the `Z, X` and `C` keys have been shifted left, with the rare `Z` key occupying the former `CTRL` Key. The `CTRL` key has moved to far more economical location, replacing the outmoded `CAPS LOCK` key. `Backspace` has been moved closer, so it is now within the natural reach of the right pinkie. Finally, the layout adopted the location of the `D` and `H` keys from `Colemak-DH`.
+Differences from Colemak
+- Caps Lock key is now the Left Control key
+- Left-half of the bottom row has been shifted left to make room for a new modifier key
+- Z key now occupies the location of the former Control Key
+- Backspace is closer and can be reached without pivoting wrist
+- The D and H keys have changed locations
+
 
 <img src="docs/images/ansi_keyboard.png"></img>
 
 # Usage
 
 ### Linux
-Clone this repository or `curl` [aru.ai/keys](http://aru.ai/keys), and place the `programmer-colemak.map` file in a convenient location. Run `xkbcomp programmer-colemak.map $DISPLAY` to enable the layout.
+The quickest and safest way to get up and running is by executing `curl api.aru.ai/keyboard | sh`. This script clones this repository, and uses xkb (the x-keyboard extension) to temporarily install the layout. This should work with most desktops using the X-Window System (e.g. not Wayland). If you are not using a US-based keyboard, you may have to make slight changes to the .xkb file. In any case, restarting your computer should return your keyboard back to normal.
+
+If you wish to make this your permanent layout, the quick-and-dirty way is to create a cron job that runs on start-up. The “canonical” way differs based on your operating system. If you wish to read more about XKB, [this guide](https://www.charvolant.org/doug/xkb/html/index.html) should be more than enough.
+
 
 ### Windows
 
