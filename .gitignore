@@ -1,0 +1,11 @@
+
+# gitch
+.gitchconfig
+.git.*
+.gitignore.*
+
+# private
+_etc
+
+# other
+.idea
