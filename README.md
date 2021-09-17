@@ -1,8 +1,7 @@
-<p align="center”>
-    <img src="docs/images/title.png" width="800px"/>
-    <b>Keyboard Layout for Programmers.</b>
-</p>
 
+<p align="center">
+    <img src="docs/images/title.png" width="800px"/>
+</p>
 
 # Overview
 
@@ -17,6 +16,7 @@ Programmer Colemak is based on the Colemak keyboard layout and adopts changes fr
 The arrangement of the symbols was designed using the symbol frequencies in common open-source projects. It was endeavored to avoid favoring the syntax of any particular language. See the chart below.
 
 ![key frequency](docs/images/computer_language_char_frequency.png)
+
 [source](http://xahlee.info/comp/computer_language_char_distribution.html)
 
 Some other notable changes from Colemak are the backspace key is shifted so that it’s within range of the pinky, the caps lock key is replaced by control, and Z occupies the location of the former control key. The table below summarizes these changes.
@@ -24,10 +24,10 @@ Some other notable changes from Colemak are the backspace key is shifted so that
 
 | Old Key(s) |      New Key(s)      |
 |------------|----------------------|
-| caps lock  |  control             |
-| control    |  z                   |
-| [ ]         |  backspace           |
-| zxcd       |  xcdv (shifted left) |
+| `caps lock`  |  `control`             |
+| `control`    |  z                   |
+| [,]         |  `backspace` (two keys merged)          |
+| z,x,c,d       |  x,c,d,v (shifted left) |
 
 
 # Installation
@@ -41,8 +41,8 @@ Some other notable changes from Colemak are the backspace key is shifted so that
 *This is if you’re not using a desktop environment (e.g. just a raw terminal). This
 version may be missing a few features.*
 
-Run `loadkeys linux/prog_ck.loadkeys` and the keyboard should be activated
-. See [loadkeys](https://man7.org/linux/man-pages/man1/loadkeys.1.html) for usage.
+Run `loadkeys linux/prog_ck.loadkeys` and the keyboard should be activated.
+See [loadkeys](https://man7.org/linux/man-pages/man1/loadkeys.1.html) for usage.
 
 ### X Windowing System
 (`/linux/xkb`)
@@ -99,3 +99,11 @@ To install, install `programmer_cokemak.sk` with Sharpkeys and then run `prog_ck
 ## MacOS
 
 Soon to be released. Stay tuned!
+
+# Learning
+
+Learning a new keyboard layout can be intimidating, but the return on investment is well worth it. I made the switch myself a few months after creating this layout and haven’t looked back since.
+
+Perhaps the fastest way to learn is to go cold-turkey (if possible). Switch to the new layout and just do your everyday work. The first few hours will be excruciatingly slow, the first few days ponderous, and the first few weeks difficult, but within a month, you should become comfortable with a layout that will benefit you for a lifetime.
+
+The easier approach (and the least disruptive one) is to learn Colemak first using [Tarmak](https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/) (gradual shift from QWERTY) and then switch to Programmer Colemak.
