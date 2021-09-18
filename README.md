@@ -5,29 +5,37 @@
 
 # Overview
 
-For the typewriter age, the QWERTY layout and its inefficiencies were necessary, but in our modern world, they are cruel and taxing. It’s a grim fact that for programmers in particular, who spend a large part of their lives over the keyboard, some of their most common symbols are tucked away at the far-away and hard-to-reach fringes of the keyboard. Frustrated with these inequities, Programmer Colemak was designed to minimizes wrist strain by placing the most frequent programming symbols in the home row, making typing safer and more enjoyable.
+QWERTY was required for the typewriter age, but today it is outmoded, cruel, and taxing. For programmers in particular, who spend much of their lives over the keyboard, it’s a grim fact that some of their most common symbols are marginalized to the fringes of the keyboard. Frustrated with these inequities, I designed Programmer Colemak to make typing more ergonomic, comfortable, and enjoyable for programmers.
 
 <img src="docs/images/ansi_keyboard.png"></img>
 
 # Design
 
-Programmer Colemak is based on the Colemak keyboard layout and adopts changes from colemak-dh. It also borrows from Programmer Dvorak. The layout’s key innovation is the introduction of a “super” key in the bottom, which acts as a modifier (akin to `ctrl` or `shift`), and while pressed converts the home row keys to common programming characters. 
+Programmer Colemak is based on the [Colemak](https://colemak.com/) keyboard layout; in particular, a variation known as [Colemak-DH](https://colemakmods.github.io/mod-dh/). Common programming symbols are made available on the home row, which is where your fingers naturally rest, while pressing the `super` key in the third row (the circle). 
 
-The arrangement of the symbols was designed using the symbol frequencies in common open-source projects. It was endeavored to avoid favoring the syntax of any particular language. See the chart below.
+The row is arranged so that more frequent symbols are accessible by the stronger fingers (ex: the `(` and `)` keys and the index fingers). Key frequencies were derived from a mix of common open-source projects, such that no programming language was favored over another. The chart below is from [here](http://xahlee.info/comp/computer_language_char_distribution.html), which provides exact information on language distributions.
 
 ![key frequency](docs/images/computer_language_char_frequency.png)
 
-[source](http://xahlee.info/comp/computer_language_char_distribution.html)
-
 Some other notable changes from Colemak are the backspace key is shifted so that it’s within range of the pinky, the caps lock key is replaced by control, and Z occupies the location of the former control key. The table below summarizes these changes.
 
+**Differences from Colemak-DH**
+| Old Keys |      New Keys     | Notes |
+|------------|----------------------|-----------
+| `<caps lock>`    |  `<ctrl>`         | `<ctrl>` is far more useful.
+| `<ctrl>`         |  `z`              | Z key is [rarely used](https://en.wikipedia.org/wiki/Letter_frequency)
+| `[` `]`          |  `<backspace>`    | Two keys merged to make new `<backspace>`
+| `z` `x` `c` `d`  |   `x` `c` `d` `v` | Keys shifted left to make room for `super` key
+| `v`              | `◯`              | "Super" modifier key
 
-| Old Key(s) |      New Key(s)      |
-|------------|----------------------|
-| `caps lock`  |  `control`             |
-| `control`    |  z                   |
-| [,]         |  `backspace` (two keys merged)          |
-| z,x,c,d       |  x,c,d,v (shifted left) |
+
+# Learning
+
+Learning a new keyboard layout can be intimidating, but the return on investment is well worth it. I made the switch myself a few months after creating this layout and haven’t looked back since.
+
+Perhaps the fastest way to learn is to go cold-turkey (if possible). Switch to the new layout and just do your everyday work. The first few hours will be excruciatingly slow, the first few days ponderous, and the first few weeks difficult, but within a month, you should become comfortable with a layout that will benefit you for a lifetime.
+
+The easier approach (and the least disruptive one) is to learn Colemak first using [Tarmak](https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/) (gradual shift from QWERTY) and then switch to Programmer Colemak.
 
 
 # Installation
@@ -100,10 +108,3 @@ To install, install `programmer_cokemak.sk` with Sharpkeys and then run `prog_ck
 
 Soon to be released. Stay tuned!
 
-# Learning
-
-Learning a new keyboard layout can be intimidating, but the return on investment is well worth it. I made the switch myself a few months after creating this layout and haven’t looked back since.
-
-Perhaps the fastest way to learn is to go cold-turkey (if possible). Switch to the new layout and just do your everyday work. The first few hours will be excruciatingly slow, the first few days ponderous, and the first few weeks difficult, but within a month, you should become comfortable with a layout that will benefit you for a lifetime.
-
-The easier approach (and the least disruptive one) is to learn Colemak first using [Tarmak](https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/) (gradual shift from QWERTY) and then switch to Programmer Colemak.
