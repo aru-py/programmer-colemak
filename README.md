@@ -68,7 +68,7 @@ You may safely ignore any errors when running the command.
 
 The configuration directory for keymaps varies by distribution (for Arch, it is `/usr/share/X11/xkb/symbols/`). Inside the directory, append to the `us` file the contents of `prog_ck.xkb`.
 
-Then, add the following lines to `/usr/share/X11/xkb/symbols/base` (may be at a different location) below  the first instance of `<name>us</name>`.
+Then, add the following lines to `/usr/share/X11/xkb/rules/base` (may be at a different location) below  the first instance of `<name>us</name>`.
 
 ```
 <variant>
