@@ -1,12 +1,10 @@
-xkb_keymap {
-        xkb_keycodes  { include "evdev+aliases(qwerty)" };
-        xkb_types     { include "complete"      };
-        xkb_compat    { include "complete"      };
+// 
+// Programmer Colemak
+// Aru Bhoop
+//
+
 partial alphanumeric_keys
-xkb_symbols "colemak-programmer" {
- 
-    include "pc"
-    include "inet(evdev)"
+xkb_symbols "programmer-colemak" {
 
     include "us(basic)"
     name[Group1]= "English (Programmer Colemak)";
@@ -68,6 +66,5 @@ xkb_symbols "colemak-programmer" {
     key <BKSP> {   [       BackSpace,       BackSpace ] };
     key <LCTL> {  [ z, Z ] };
 
-};
- 
+    };
  };

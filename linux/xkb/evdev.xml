@@ -1,0 +1,8 @@
+<!-- add this to `evdev.xml` under the `us` configurations -->
+<variant>
+    <configItem>
+        <name>programmer-colemak</name>
+            <description>Programmer Colemak</description>
+        </configItem>
+    </variant>
+<variant> 

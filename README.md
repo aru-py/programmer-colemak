@@ -63,12 +63,12 @@ install Programmer Colemak with two methods.
 
 **Temporary**
 
-To install temporarily (resets on restart), simply run `xkbcomp prog_ck.xkb $DISPLAY` and the keyboard should be activated. 
+To install temporarily (resets on restart), simply run `xkbcomp prog_ck_keymap.xkb $DISPLAY` and the keyboard should be activated. 
 You may safely ignore any errors when running the command.
 
 **Full**
 
-The configuration directory for keymaps varies by distribution (for Arch, it is `/usr/share/X11/xkb/symbols/`). Inside the directory, append to the `us` file the contents of `prog_ck.xkb`.
+The configuration directory for keymaps varies by distribution (for Arch, it is `/usr/share/X11/xkb/symbols/`). Inside the directory, append to the `us` file the contents of `prog_ck_symbols.xkb`.
 
 Then, add the following lines to `/usr/share/X11/xkb/rules/evdev.xml` (may be at a different location) below  the first instance of `<name>us</name>`.
 
@@ -106,6 +106,13 @@ Install by running `prog_ck.ahk` with AutoHotkey.
 
 This method modifies the registry so create a backup to return to your normal keyboard layout if needed. 
 To install, install `prog_ck.sk` with Sharpkeys and then run `prog_ck_hr.ahk` in AutoHotkey.
+
+## Notes
+The keyboard maps `◯` to the `Right ALT` modifier, but in some applications, such as Microsoft Word, no distinction is made
+between the two `ALT` keys, leading to conflicts with application shortcuts when typing symbols. One workaround is to map
+`◯` to the modifier `ATTN` instead, which is a relic of old DOS computers and is virtually obsolete today. This can be 
+achieved trivially using [Microsoft PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/). Then you can run the
+the `prog_ck_alt.ahk` with AutoHotKey and you shouldn't have any more conflicts.
 
 ## MacOS
 

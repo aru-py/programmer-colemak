@@ -1,0 +1,78 @@
+// 
+// Programmer Colemak
+// Aru Bhoop
+//
+
+xkb_keymap {
+        xkb_keycodes  { include "evdev+aliases(qwerty)" };
+        xkb_types     { include "complete"      };
+        xkb_compat    { include "complete"      };
+partial alphanumeric_keys
+
+xkb_symbols "programmer-colemak" {
+ 
+    include "pc"
+    include "inet(evdev)"
+
+    include "us(basic)"
+    name[Group1]= "English (Programmer Colemak)";
+
+    key <TLDE> { [        grave,       asciitilde           ] };
+    key <AE01> { [            1,           exclam           ] };
+    key <AE02> { [            2,               at           ] };
+    key <AE03> { [            3,       numbersign           ] };
+    key <AE04> { [            4,           dollar           ] };
+    key <AE05> { [            5,          percent           ] };
+    key <AE06> { [            6,      asciicircum           ] };
+    key <AE07> { [            7,        ampersand           ] };
+    key <AE08> { [            8,         asterisk           ] };
+    key <AE09> { [            9,        parenleft           ] };
+    key <AE10> { [            0,       parenright           ] };
+    key <AE11> { [        minus,       underscore           ] };
+    key <AE12> { [        equal,             plus           ] };
+
+    key <AD01> { [            q,            Q ] };
+    key <AD02> { [            w,            W ] };
+    key <AD03> { [            f,            F ] };
+    key <AD04> { [            p,            P ] };
+    key <AD05> { [            b,            B ] };
+    key <AD06> { [            j,            J ] };
+    key <AD07> { [            l,            L ] };
+    key <AD08> { [            u,            U ] };
+    key <AD09> { [            y,            Y ] };
+    key <AD10> { [    semicolon,        colon ] };
+    key <AD11> { [  BackSpace, BackSpace ] };
+    key <AD12> { [  BackSpace, BackSpace ] };
+    key <BKSL> { [    backslash,          bar ] };
+
+    key <AC01> { [            a,            A,          bracketleft   ] };
+    key <AC02> { [            r,            R,          braceleft     ] };
+    key <AC03> { [            s,            S,          equal         ] };
+    key <AC04> { [            t,            T,          parenleft     ] };
+    key <AC05> { [            g,            G,          asterisk      ] };
+    key <AC06> { [            k,            K,          minus         ] };
+    key <AC07> { [            n,            N,          parenright    ] };
+    key <AC08> { [            e,            E,          underscore    ] };
+    key <AC09> { [             i,            I,          braceright    ] };
+    key <AC10> { [            o,            O,          bracketright  ] };
+    key <AC11> { [   apostrophe,     quotedbl ] };
+
+    key <AB01> { [            x,            X ] };
+    key <AB02> { [            c,            C ] };
+    key <AB03> { [            d,            D ] };
+    key <AB04> { [            v,            V ] };
+    key <AB05> { [        ISO_Level3_Shift, ISO_Level3_Shift    ] };
+    key <AB06> { [            m,            M ] };
+    key <AB07> { [            h,            H ] };
+    key <AB08> { [        comma,         less ] };
+    key <AB09> { [       period,      greater ] };
+    key <AB10> { [        slash,     question ] };
+
+    key <LSGT> { [        minus,   underscore ] };
+    key <SPCE> { [        space,        space ] };
+    key <CAPS> { [      Control_L             ] };
+    key <BKSP> {   [       BackSpace,       BackSpace ] };
+    key <LCTL> {  [ z, Z ] };
+
+    };
+ };
