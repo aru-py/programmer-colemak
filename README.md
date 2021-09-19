@@ -107,8 +107,8 @@ Install by running `prog_ck.ahk` with AutoHotkey.
 This method modifies the registry so create a backup to return to your normal keyboard layout if needed. 
 To install, install `prog_ck.sk` with Sharpkeys and then run `prog_ck_hr.ahk` in AutoHotkey.
 
-## Notes
-The keyboard maps `◯` to the `Right ALT` modifier, but in some applications, such as Microsoft Word, no distinction is made
+**Notes**
+The `◯` key is mapped to the `Right ALT` modifier, but in some applications, such as Microsoft Word, no distinction is made
 between the two `ALT` keys, leading to conflicts with application shortcuts when typing symbols. One workaround is to map
 `◯` to the modifier `ATTN` instead, which is a relic of old DOS computers and is virtually obsolete today. This can be 
 achieved trivially using [Microsoft PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/). Then you can run the
