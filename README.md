@@ -27,6 +27,7 @@ Some other notable changes from Colemak are the backspace key is shifted so that
 | `[` `]`          |  `<backspace>`    | Two keys merged to make new `<backspace>`
 | `z` `x` `c` `d`  |   `x` `c` `d` `v` | Keys shifted left to make room for `super` key
 | `v`              | `◯`              | "Super" modifier key
+| `<backspace>`    | `<escape>`        | For vim users
 
 
 # Learning
