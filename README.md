@@ -11,13 +11,13 @@ QWERTY was required for the typewriter age, but today it is outmoded, cruel, and
 
 # Design
 
-Programmer Colemak is based on the [Colemak](https://colemak.com/) keyboard layout; in particular, a variation known as [Colemak-DH](https://colemakmods.github.io/mod-dh/). Common programming symbols are made available on the home row, which is where your fingers naturally rest, while pressing the `super` key in the third row (the circle). 
+Programmer Colemak is based on the [Colemak](https://colemak.com/) keyboard layout; in particular, a variation known as [Colemak-DH](https://colemakmods.github.io/mod-dh/). Common programming symbols are made available on the home row, which is where your fingers naturally rest, while pressing the `◯` key in the fourth row (the "super" key). 
 
-The row is arranged so that more frequent symbols are accessible by the stronger fingers (ex: the `(` and `)` keys and the index fingers). Key frequencies were derived from a mix of common open-source projects, such that no programming language was favored over another. The chart below is from [here](http://xahlee.info/comp/computer_language_char_distribution.html), which provides exact information on language distributions.
+The home row is arranged so such that the most frequent symbols are accessible by the stronger fingers (ex: the `(` and `)` keys and the index fingers). Key frequencies were derived from a mix of common open-source projects, such that no programming language was favored over another. The chart below is from [here](http://xahlee.info/comp/computer_language_char_distribution.html).
 
 ![key frequency](docs/images/computer_language_char_frequency.png)
 
-Some other notable changes from Colemak are the backspace key is shifted so that it’s within range of the pinky, the caps lock key is replaced by control, and Z occupies the location of the former control key. The table below summarizes these changes.
+Some other notable changes from Colemak: the backspace key is shifted so that it’s within range of the pinky, the caps lock key is replaced by control, and Z occupies the location of the former control key. The table below summarizes the changes Programmer-Colemak makes to Colemak-DH.
 
 **Differences from Colemak-DH**
 | Old Keys |      New Keys     | Notes |
@@ -32,7 +32,7 @@ Some other notable changes from Colemak are the backspace key is shifted so that
 
 # Learning
 
-Learning a new keyboard layout can be intimidating, but the return on investment is well worth it. I made the switch myself a few months after creating this layout and haven’t looked back since.
+Learning a new keyboard layout can be intimidating, but the return on investment is well worth it. I made the switch myself a few months after creating this layout and haven’t looked back since. It's also been much better for my hands.
 
 Perhaps the fastest way to learn is to go cold-turkey (if possible). Switch to the new layout and just do your everyday work. The first few hours will be excruciatingly slow, the first few days ponderous, and the first few weeks difficult, but within a month, you should become comfortable with a layout that will benefit you for a lifetime.
 
@@ -103,7 +103,7 @@ Install by running `prog_ck.ahk` with AutoHotkey.
 (`/windows/full`)
 
 This method modifies the registry so create a backup to return to your normal keyboard layout if needed. 
-To install, install `programmer_cokemak.sk` with Sharpkeys and then run `prog_ck_hr.ahk` in AutoHotkey.
+To install, install `prog_ck.sk` with Sharpkeys and then run `prog_ck_hr.ahk` in AutoHotkey.
 
 ## MacOS
 
