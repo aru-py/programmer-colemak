@@ -24,10 +24,12 @@ Some other notable changes from Colemak: the backspace key is shifted so that it
 |------------|----------------------|-----------
 | `<caps lock>`    |  `<ctrl>`         | `<ctrl>` is far more useful.
 | `<ctrl>`         |  `z`              | Z key is [rarely used](https://en.wikipedia.org/wiki/Letter_frequency)
-| `[` `]`          |  `<backspace>`    | Two keys merged to make new `<backspace>`
-| `z` `x` `c` `d`  |   `x` `c` `d` `v` | Keys shifted left to make room for `super` key
-| `v`              | `◯`              | "Super" modifier key
 | `<backspace>`    | `<escape>`        | For vim users
+| `[` `]`          |  `<backspace>`    | Two keys merged to make new `<backspace>`
+| `m`              |   `k`             | `m` moved to better position
+| `k`              |   `m`             | `m` is more common than `k`
+| `z`              | `◯`              | "Super" modifier key
+
 
 
 # Learning
