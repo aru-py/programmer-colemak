@@ -75,4 +75,6 @@ b & l::}
 b & `;::]
 
 BackSpace::Esc
-Capslock::z
++Capslock::Capslock     ;shift+capslock toggles caps  
+Capslock::LCtrl         ;capslock is left control
+LCtrl::z                ;left control is z
