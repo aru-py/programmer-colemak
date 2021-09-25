@@ -98,7 +98,7 @@ There are two installations provided for Windows, which require [AutoHotKey](htt
 ### Lite installation
 (`/windows/lite`)
 
-This method does not modify the registry, but the `ctrl` and `caps lock` keys will not be modified and the keyboard may not work in privileged applications (such as powershell). 
+This method does not modify the registry, but the the keyboard may not work in some privileged applications (such as powershell). 
 Install by running `prog_ck.ahk` with AutoHotkey.
 
 ### Full installation
