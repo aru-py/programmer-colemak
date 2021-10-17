@@ -76,10 +76,9 @@ Then, add the following lines to `/usr/share/X11/xkb/rules/evdev.xml` (may be at
 <variant>
     <configItem>
         <name>programmer-colemak</name>
-            <description>Programmer Colemak</description>
-        </configItem>
-    </variant>
-<variant>
+        <description>Programmer Colemak</description>
+    </configItem>
+</variant>
 ```
 
 From here, you can use your desktop environment’s gui keyboard tool to load “Programmer Colemak”.
