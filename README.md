@@ -76,10 +76,9 @@ Then, add the following lines to `/usr/share/X11/xkb/rules/evdev.xml` (may be at
 <variant>
     <configItem>
         <name>programmer-colemak</name>
-            <description>Programmer Colemak</description>
-        </configItem>
-    </variant>
-<variant>
+        <description>Programmer Colemak</description>
+    </configItem>
+</variant>
 ```
 
 From here, you can use your desktop environment’s gui keyboard tool to load “Programmer Colemak”.
@@ -98,7 +97,7 @@ There are two installations provided for Windows, which require [AutoHotKey](htt
 ### Lite installation
 (`/windows/lite`)
 
-This method does not modify the registry, but the `ctrl` and `caps lock` keys will not be modified and the keyboard may not work in privileged applications (such as powershell). 
+This method does not modify the registry, but the the keyboard may not work in some privileged applications (such as powershell). 
 Install by running `prog_ck.ahk` with AutoHotkey.
 
 ### Full installation
@@ -108,6 +107,7 @@ This method modifies the registry so create a backup to return to your normal ke
 To install, install `prog_ck.sk` with Sharpkeys and then run `prog_ck_hr.ahk` in AutoHotkey.
 
 **Notes**
+
 The `◯` key is mapped to the `Right ALT` modifier, but in some applications, such as Microsoft Word, no distinction is made
 between the two `ALT` keys, leading to conflicts with application shortcuts when typing symbols. One workaround is to map
 `◯` to the modifier `ATTN` instead, which is a relic of old DOS computers and is virtually obsolete today. This can be 
