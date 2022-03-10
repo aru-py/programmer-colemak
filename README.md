@@ -45,16 +45,13 @@ Finally, if you’re looking for some inspiration, head to [Stories][gh-discussi
 
 ## [MacOS](layouts/macOS)
 
-The installation on macOS is very simple:
+**The installation on macOS is very simple:**
 
 1. Install [Karabiner](https://karabiner-elements.pqrs.org) (you can also use `brew install --cask karabiner-elements`)
 
 2. Replace the Karabiner configuration (likely `~/.config/karabiner/karabiner.json`) with the [configuration](/layouts/macOS/karabiner.json) in the GitHub repository (if you’re already using Karabiner, just copy and paste the profile from the GitHub configuration)
 
-```
-On macOS, caps lock becomes ⌘, and ⌘ becomes ctrl + shift (⌘ is now a free key that can be remapped to anything you want).
-```
-These are the default (but recommended) changes, but can be modified to what’s comfortable for you using Karabiner.
+**Note: On macOS, caps lock becomes ⌘, and ⌘ becomes ctrl + shift (⌘ is now a free key that can be remapped to anything you want).**
 
 **Removal**
 
@@ -76,12 +73,11 @@ install Programmer Colemak with two methods.
 
 **Temporary**
 
-To install temporarily (resets on restart), simply run `xkbcomp prog_ck_keymap.xkb $DISPLAY` and the keyboard should be activated. 
-You may safely ignore any errors when running the command.
+To install temporarily (resets on restart), simply run `xkbcomp prog_ck_keymap.xkb $DISPLAY` and the keyboard should be activated. There may be errors that show unmapped keys, but those can be ignored.
 
 **Full**
 
-The configuration directory for keymaps varies by distribution (for Arch, it is `/usr/share/X11/xkb/symbols/`). Inside the directory, append to the `us` file the contents of `prog_ck_symbols.xkb`.
+The configuration directory for keymaps varies by your Linux distribution (for Arch Linux, it is `/usr/share/X11/xkb/symbols/`). Inside the directory, append to the `us` file the contents of `prog_ck_symbols.xkb`.
 
 Then, add the following lines to `/usr/share/X11/xkb/rules/evdev.xml` (may be at a different location) below  the first instance of `<name>us</name>`.
 
@@ -136,7 +132,7 @@ The switch does require some effort, but if you type several hours a day or more
 
 # Contributing
 
-See [Issues][gh-issues] to help out or to suggest ideas. If you’re learning or using the layout, please share your experience with the community on [Github Discussions][gh-discussions-stories].
+We’re always looking for people to help improve the documentation or to add support for more languages! See [Issues][gh-issues] for more ways to help or to raise a suggestion or issue. If you’re  learning or using the layout, please share your experience with the community on [Github Discussions][gh-discussions-stories].
 
 
 [colemak]: https://colemak.com/
