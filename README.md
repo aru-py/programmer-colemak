@@ -1,6 +1,5 @@
 ![Programmer Colemak (1)](https://user-images.githubusercontent.com/37231424/157564870-ddb7807e-f0cc-421f-be77-968efcdec4f3.svg)
 
-
 # Table of Contents
 
 * [Table of Contents](#table-of-contents)
@@ -50,18 +49,14 @@ The installation on macOS is very simple:
 
 1. Install [Karabiner](https://karabiner-elements.pqrs.org) (you can also use `brew install --cask karabiner-elements`)
 
-2. Replace the Karabiner configuration (likely `~/.config/karabiner/karabiner.json`) with the [configuration](/layouts/macOS/prog_ck.json) in the GitHub repository (if you’re already using Karabiner, just copy and paste the profile from the GitHub configuration)
+2. Replace the Karabiner configuration (likely `~/.config/karabiner/karabiner.json`) with the [configuration](/layouts/macOS/karabiner.json) in the GitHub repository (if you’re already using Karabiner, just copy and paste the profile from the GitHub configuration)
 
-Since there are different modifiers on Apple computers, the default configuration is a bit different for macOS.
-
-- `fn (or 🌐 on newer macs)` becomes `z`
-- `^ (control)` is replaced by `fn (or 🌐 on newer macs)`
-- `caps lock` is now `⌘ (command)`
-- `⌘ (command)` is now equivalent to `ctrl` + `shift` (it is now a free modifier key and can be used for anything. `ctrl` + `shift` is just an uncommon combination).
- 
+```
+On macOS, caps lock becomes ⌘, and ⌘ becomes ctrl + shift (⌘ is now a free key that can be remapped to anything you want).
+```
 These are the default (but recommended) changes, but can be modified to what’s comfortable for you using Karabiner.
 
-**Uninstallation**
+**Removal**
 
 To return to the default layout, create a new profile through the Karabiner GUI (under `Profiles`) and switch to it. To uninstall completely, remove the `Programmer Colemak` profile or uninstall Karabiner.
 
