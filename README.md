@@ -1,7 +1,4 @@
-
-<p align="center">
-    <img src="docs/images/title.png" width="800px"/>
-</p>
+![Programmer Colemak (1)](https://user-images.githubusercontent.com/37231424/157564870-ddb7807e-f0cc-421f-be77-968efcdec4f3.svg)
 
 
 # Table of Contents
