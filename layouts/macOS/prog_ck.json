@@ -2,7 +2,7 @@
   "title": "Programmer Colemak",
   "rules": [
     {
-      "description": "Base Layout",
+      "description": "Programmer Colemak - Base",
       "manipulators": [
         {
           "type": "basic",
@@ -67,6 +67,20 @@
               "key_code": "d"
             }
           ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "to": {
+              "key_code": "9"
+            }
+          }
         },
         {
           "type": "basic",
@@ -551,8 +565,27 @@
       ]
     },
     {
-      "description": "Home Row Symbols",
+      "description": "Programmer Colemak - Symbols",
       "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "spacebar"
+            }
+          ]
+        },
         {
           "type": "basic",
           "from": {
