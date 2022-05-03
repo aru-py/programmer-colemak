@@ -63,8 +63,8 @@ xkb_symbols "programmer-colemak" {
     key <LSGT> { [        minus,   underscore ] };
     key <SPCE> { [        space,        space ] };
     key <CAPS> { [      Control_L             ] };
+    modifier_map Control { <CAPS };
     key <BKSP> {   [       BackSpace,       BackSpace ] };
     key <LCTL> {  [ z, Z ] };
 
-    };
  };
