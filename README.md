@@ -1,4 +1,6 @@
-![Programmer Colemak (1)](https://user-images.githubusercontent.com/37231424/157564870-ddb7807e-f0cc-421f-be77-968efcdec4f3.svg)
+![Programmer Colemak](https://user-images.githubusercontent.com/37231424/166585389-47360e95-9566-4536-9102-bb9b3543d44e.svg)
+
+
 
 # Table of Contents
 
