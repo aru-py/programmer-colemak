@@ -82,4 +82,3 @@ This is the full list of changes that Programmer Colemak makes to Colemak.
 | ,   | ≤      | less or equal         |
 | .   | ≥      | greater or equal      |
 | /   | ≈      | approximately         |
-| `   | ∲      | clockwise contour integral |
