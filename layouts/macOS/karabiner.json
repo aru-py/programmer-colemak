@@ -4,10 +4,225 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Math Symbols",
+                        "description": "Programmer Colemak",
                         "manipulators": [
                             {
-                                "description": "q → σ (s̲tatistics)",
+                                "description": "1 → ∀ (for all)",
+                                "from": {
+                                    "key_code": "1",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.UnicodeHexInput" } },
+                                    {
+                                        "hold_down_milliseconds": 50,
+                                        "key_code": "vk_none"
+                                    },
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "0",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "0",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "2 → ∃ (there exists)",
+                                "from": {
+                                    "key_code": "2",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.UnicodeHexInput" } },
+                                    {
+                                        "hold_down_milliseconds": 50,
+                                        "key_code": "vk_none"
+                                    },
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "0",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "3",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "3 → α (alpha)",
+                                "from": {
+                                    "key_code": "3",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
+                                    {
+                                        "hold_down_milliseconds": 50,
+                                        "key_code": "vk_none"
+                                    },
+                                    { "key_code": "a" }
+                                ],
+                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "4 → θ (theta)",
+                                "from": {
+                                    "key_code": "4",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
+                                    {
+                                        "hold_down_milliseconds": 50,
+                                        "key_code": "vk_none"
+                                    },
+                                    { "key_code": "u" }
+                                ],
+                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "5 → ω (omega)",
+                                "from": {
+                                    "key_code": "5",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
+                                    {
+                                        "hold_down_milliseconds": 50,
+                                        "key_code": "vk_none"
+                                    },
+                                    { "key_code": "v" }
+                                ],
+                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "6 → ∂ (partial derivative)",
+                                "from": {
+                                    "key_code": "6",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "7 → — (em dash)",
+                                "from": {
+                                    "key_code": "7",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen",
+                                        "modifiers": ["left_option", "left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "8 → – (en dash)",
+                                "from": {
+                                    "key_code": "8",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "9 → … (ellipsis)",
+                                "from": {
+                                    "key_code": "9",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "semicolon",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "0 → ° (degree)",
+                                "from": {
+                                    "key_code": "0",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "8",
+                                        "modifiers": ["left_option", "left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "q → σ (statistics)",
                                 "from": {
                                     "key_code": "q",
                                     "modifiers": {
@@ -27,7 +242,7 @@
                                 "type": "basic"
                             },
                             {
-                                "description": "w → μ (m̲ean)",
+                                "description": "w → ε (error)",
                                 "from": {
                                     "key_code": "w",
                                     "modifiers": {
@@ -41,13 +256,13 @@
                                         "hold_down_milliseconds": 50,
                                         "key_code": "vk_none"
                                     },
-                                    { "key_code": "m" }
+                                    { "key_code": "e" }
                                 ],
                                 "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "f → ∫ (integral, f̲unction)",
+                                "description": "f → ∞ (forever)",
                                 "from": {
                                     "key_code": "f",
                                     "modifiers": {
@@ -57,14 +272,14 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "b",
+                                        "key_code": "5",
                                         "modifiers": ["left_option"]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
-                                "description": "p → π",
+                                "description": "p → π (pi)",
                                 "from": {
                                     "key_code": "p",
                                     "modifiers": {
@@ -84,7 +299,7 @@
                                 "type": "basic"
                             },
                             {
-                                "description": "b → ∞ (b̲oundless)",
+                                "description": "b → ← (back)",
                                 "from": {
                                     "key_code": "b",
                                     "modifiers": {
@@ -93,15 +308,33 @@
                                     }
                                 },
                                 "to": [
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.UnicodeHexInput" } },
                                     {
-                                        "key_code": "5",
+                                        "hold_down_milliseconds": 50,
+                                        "key_code": "vk_none"
+                                    },
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "1",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "9",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "0",
                                         "modifiers": ["left_option"]
                                     }
                                 ],
+                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "j → α (j is first right-hand key → first letter)",
+                                "description": "j → → (right, vim)",
                                 "from": {
                                     "key_code": "j",
                                     "modifiers": {
@@ -110,18 +343,33 @@
                                     }
                                 },
                                 "to": [
-                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.UnicodeHexInput" } },
                                     {
                                         "hold_down_milliseconds": 50,
                                         "key_code": "vk_none"
                                     },
-                                    { "key_code": "a" }
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "1",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "9",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    }
                                 ],
                                 "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "l → λ",
+                                "description": "l → λ (lambda)",
                                 "from": {
                                     "key_code": "l",
                                     "modifiers": {
@@ -141,7 +389,7 @@
                                 "type": "basic"
                             },
                             {
-                                "description": "u → θ",
+                                "description": "u → ∈ (element of)",
                                 "from": {
                                     "key_code": "u",
                                     "modifiers": {
@@ -150,18 +398,33 @@
                                     }
                                 },
                                 "to": [
-                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.UnicodeHexInput" } },
                                     {
                                         "hold_down_milliseconds": 50,
                                         "key_code": "vk_none"
                                     },
-                                    { "key_code": "u" }
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "0",
+                                        "modifiers": ["left_option"]
+                                    },
+                                    {
+                                        "key_code": "8",
+                                        "modifiers": ["left_option"]
+                                    }
                                 ],
                                 "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "y → β",
+                                "description": "y → ± (plus or minus)",
                                 "from": {
                                     "key_code": "y",
                                     "modifiers": {
@@ -170,18 +433,15 @@
                                     }
                                 },
                                 "to": [
-                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
                                     {
-                                        "hold_down_milliseconds": 50,
-                                        "key_code": "vk_none"
-                                    },
-                                    { "key_code": "b" }
+                                        "key_code": "equal_sign",
+                                        "modifiers": ["left_option", "left_shift"]
+                                    }
                                 ],
-                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "; → ω (end of row → end of alphabet)",
+                                "description": "; → ≠ (not equal)",
                                 "from": {
                                     "key_code": "semicolon",
                                     "modifiers": {
@@ -190,18 +450,15 @@
                                     }
                                 },
                                 "to": [
-                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
                                     {
-                                        "hold_down_milliseconds": 50,
-                                        "key_code": "vk_none"
-                                    },
-                                    { "key_code": "v" }
+                                        "key_code": "equal_sign",
+                                        "modifiers": ["left_option"]
+                                    }
                                 ],
-                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "x → ≈ (approx̲imate)",
+                                "description": "x → ∑ (summation)",
                                 "from": {
                                     "key_code": "x",
                                     "modifiers": {
@@ -211,14 +468,14 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "x",
+                                        "key_code": "w",
                                         "modifiers": ["left_option"]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
-                                "description": "c → ε (c̲lose to zero)",
+                                "description": "c → ∫ (calculus, integral)",
                                 "from": {
                                     "key_code": "c",
                                     "modifiers": {
@@ -227,18 +484,15 @@
                                     }
                                 },
                                 "to": [
-                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
                                     {
-                                        "hold_down_milliseconds": 50,
-                                        "key_code": "vk_none"
-                                    },
-                                    { "key_code": "e" }
+                                        "key_code": "b",
+                                        "modifiers": ["left_option"]
+                                    }
                                 ],
-                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "d → Δ (hardcoded uppercase)",
+                                "description": "d → Δ (delta)",
                                 "from": {
                                     "key_code": "d",
                                     "modifiers": {
@@ -261,7 +515,7 @@
                                 "type": "basic"
                             },
                             {
-                                "description": "v → φ",
+                                "description": "v → φ (phi)",
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
@@ -281,7 +535,7 @@
                                 "type": "basic"
                             },
                             {
-                                "description": "m → ∂ (partial d̲erivative)",
+                                "description": "m → μ (mu)",
                                 "from": {
                                     "key_code": "m",
                                     "modifiers": {
@@ -290,15 +544,18 @@
                                     }
                                 },
                                 "to": [
+                                    { "select_input_source": { "input_source_id": "com.apple.keylayout.Greek" } },
                                     {
-                                        "key_code": "d",
-                                        "modifiers": ["left_option"]
-                                    }
+                                        "hold_down_milliseconds": 50,
+                                        "key_code": "vk_none"
+                                    },
+                                    { "key_code": "m" }
                                 ],
+                                "to_after_key_up": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.US" } }],
                                 "type": "basic"
                             },
                             {
-                                "description": "h → √ (root)",
+                                "description": "h → √ (radical)",
                                 "from": {
                                     "key_code": "h",
                                     "modifiers": {
@@ -313,12 +570,58 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Programmer Colemak - Symbols",
-                        "manipulators": [
+                            },
+                            {
+                                "description": ", → ≤ (less or equal)",
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "comma",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": ". → ≥ (greater or equal)",
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "period",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "/ → ≈ (approximately)",
+                                "from": {
+                                    "key_code": "slash",
+                                    "modifiers": {
+                                        "mandatory": ["right_alt"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "from": {
                                     "key_code": "spacebar",
@@ -616,7 +919,7 @@
                 },
                 {
                     "from": { "key_code": "right_command" },
-                    "to": [{ "key_code": "right_command" }]
+                    "to": [{ "key_code": "escape" }]
                 },
                 {
                     "from": { "key_code": "s" },
