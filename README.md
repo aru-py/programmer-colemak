@@ -53,6 +53,8 @@ Finally, if you’re looking for some inspiration, head to [Stories][gh-discussi
 
 2. Replace the Karabiner configuration (likely `~/.config/karabiner/karabiner.json`) with the [configuration](/layouts/macOS/karabiner.json) in the GitHub repository (if you’re already using Karabiner, just copy and paste the profile from the GitHub configuration)
 
+3. Add `Greek` and `Unicode Hex Input` to input sources in keyboard settings.
+
 **Note: On macOS, caps lock becomes ⌘, and ⌘ becomes ctrl + shift (⌘ is now a free key that can be remapped to anything you want).**
 
 **Removal**
